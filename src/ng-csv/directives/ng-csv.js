@@ -10,7 +10,7 @@ angular.module('ngCsv.directives').
       restrict: 'AC',
       scope: {
         data: '&ngCsv',
-        filename: '@filename',
+        filename: '&filename',
         header: '&csvHeader',
         columnOrder: '&csvColumnOrder',
         txtDelim: '@textDelimiter',
